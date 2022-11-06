@@ -10,9 +10,9 @@ Teknologi yang saya gunakan pada project ini yaitu:
 - Tailwindcss
 - firebase(firestore)
 
-Link Web: https://learnreactfirebase-121ab.web.app/
-Link Github: https://github.com/BURUH-CODING-NAIK-HAJI/undangan-online
-resource: https://jvalleybootcamp.com/
+- Link Web: https://learnreactfirebase-121ab.web.app/
+- Link Github: https://github.com/BURUH-CODING-NAIK-HAJI/undangan-online
+- resource: https://jvalleybootcamp.com/
 
 ### Bagaimana Cara Menjalankan Script Ini?
 
