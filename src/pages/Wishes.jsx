@@ -23,7 +23,6 @@ const Wishes = () => {
       return;
     }
     reset();
-
     const docId = Date.now().toString();
     const wishesRef = doc(firestore, "wishes", docId);
     setDoc(wishesRef, {
@@ -81,7 +80,12 @@ const Wishes = () => {
       .catch((err) => {
         console.error(err);
       });
-  }, [listener]);
+
+    // component did update
+    return () => {
+      listener();
+    };
+  }, []);
 
   return (
     <div className="w-full min-h-screen bg-main bg-cover bg-left ">
@@ -133,7 +137,7 @@ const Wishes = () => {
           <button className="bg-green-900 hover:bg-primary py-2 rounded-md text-white text-lg">
             Kirim
           </button>
-          <div className="w-full flex flex-col">
+          <div className="w-full flex flex-col-reverse">
             {datas.map((item) => (
               <div key={item.id} className="border-b-[1px] border-gray-500 p-2">
                 <div className="w-full h-full flex flex-row gap-3 items-end">
