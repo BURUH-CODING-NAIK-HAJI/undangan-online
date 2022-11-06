@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="w-screen h-[90px] rounded-t-2xl bg-primary fixed bottom-0 px-3 flex flex-col items-center justify-center">
+    <div className="w-screen h-[90px] rounded-t-2xl bg-primary fixed bottom-0 px-3 flex flex-col items-center justify-center z-10">
       <nav className="w-full h-14 flex flex-row items-center justify-center max-w-xl md:gap-20 sm:gap-14 p-5 gap-8">
         <NavLink
           to="/home"

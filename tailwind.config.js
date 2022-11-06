@@ -9,10 +9,14 @@ module.exports = {
       fontFamily: {
         shalimar: ["Shalimar", "handwriting"],
         Poppins: ["Poppins", "san-serif"],
+        Poppins2: ["Poppins", "san-serif"],
+        Open: ["Open Sans", "san-serif"],
         Bree: ["Bree Serif", "serif"],
       },
       colors: {
         primary: "#6A9483",
+        secondary: "#A2BFAD",
+        third: "#223C31",
       },
     },
   },

@@ -3,10 +3,7 @@ import Navbar from "../components/Navbar";
 import { useTimer } from "reactjs-countdown-hook";
 
 const Home = () => {
-  const { seconds, minutes, hours, days } = useTimer(
-    8000000,
-    handleTimerFinish
-  );
+  const { seconds, minutes, hours, days } = useTimer(800000, handleTimerFinish);
 
   function handleTimerFinish() {
     alert("Waktunya Nikah!");
@@ -18,7 +15,7 @@ const Home = () => {
         <h1 className="text-2xl text-primary font-Bree">The Wedding Of</h1>
         <img src="mempelai.png" alt="Mempelai" width={180} className="ml-8" />
         <div className="flex flex-col gap-1">
-          <h1 className="font-shalimar font-extrabold text-5xl text-primary">
+          <h1 className="font-shalimar font-extrabold text-5xl text-primary text-center">
             Yandra Muslim & Anime
           </h1>
           <h2 className="font-Poppins text-2xl text-primary text-center">
