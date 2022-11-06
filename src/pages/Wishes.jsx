@@ -34,6 +34,7 @@ const Wishes = () => {
     })
       .then((res) => {
         alert("Data Berhasil Ditambahkan");
+        window.location.reload();
       })
       .catch((err) => {
         alert("Data Gagal Ditambahkan");
