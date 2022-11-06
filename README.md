@@ -12,7 +12,7 @@ Teknologi yang saya gunakan pada project ini yaitu:
 
 ## `Link and Resource`
 
-- Link Web: https://undangan-74771.web.app/Nama%Kalian
+- Link Web: https://undangan-74771.web.app/Nama%20Kalian
 - Link Github: https://github.com/BURUH-CODING-NAIK-HAJI/undangan-online
 - resource: https://jvalleybootcamp.com/
 
