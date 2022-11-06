@@ -1,12 +1,20 @@
-# Getting Started with Create React App
+# UNDANGAN ONLINE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project ini dibuat oleh Yandra Muslim.
 
-## Available Scripts
+## `Teknologi`
 
-In the project directory, you can run:
+Teknologi yang saya gunakan pada project ini yaitu:
 
-### `npm start`
+- Reactjs
+- Tailwindcss
+- firebase(firestore)
+
+Link Web: https://learnreactfirebase-121ab.web.app/
+Link Github: https://github.com/BURUH-CODING-NAIK-HAJI/undangan-online
+resource: https://jvalleybootcamp.com/
+
+### Bagaimana Cara Menjalankan Script Ini?
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
