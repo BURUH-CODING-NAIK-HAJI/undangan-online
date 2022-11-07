@@ -61,7 +61,6 @@ const Wishes = () => {
   const listener = () => {
     let wishesRef = collection(firestore, "wishes");
     onSnapshot(wishesRef, (newRec) => {
-      console.info("test");
       getWishesCollection()
         .then((res) => {
           setDatas(res);

@@ -7,6 +7,10 @@ const Gift = () => {
 
   const handleClick = () => {
     setCopy(false);
+    setTimeout(() => {
+      setCopy(true);
+    }, 2000);
+
     navigator.clipboard.writeText("12345678910");
     return;
   };
@@ -16,19 +20,19 @@ const Gift = () => {
       <div className="w-full min-h-screen bg-main bg-cover bg-center p-5 flex flex-col items-center justify-center">
         <div className="max-w-xl w-full bg-white border-[3px] border-third mx-auto rounded-xl flex flex-col items-center justify-center gap-6 p-2">
           <img
-            src="https://blogger.googleusercontent.com/img/a/AVvXsEiL-Z4N4ZWA1XzsRey-BtSFNExzQoAG2uAeL7dPDHJdgGs9DC7JhGgvu3qWs7uyQBuuKKBIZvNiL1BtT70JIgM4xWOw4zJegKAtf6Gp1jIIXN_nhCj32CZCKt1iC1JQD2rW4VT9HxGWD1zPSs030CiphPTU7CGD-aq30yPFm2spAhuza9Pb5kfFSJzT1g=w1200-h630-p-k-no-nu"
-            alt="Bank BRI"
-            width={200}
-            height={200}
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5WSNEo4yCjiHAIZacpGj-wUeuHkv2fKPRrpxj00s0Br_w2fvwq5O8TFVW3GI32YN2Hkw&usqp=CAU"
+            alt="Bank"
+            width={150}
+            height={150}
           />
           <h1 className="text-orange-600">No Rekening: 12345678910</h1>
           <button
             className={`bg-third ${
-              !copy && "bg-green-600"
-            } p-3 rounded-md text-white `}
+              !copy && "bg-green-600 hover:bg-green-800"
+            } p-3 rounded-md text-white  hover:bg-green-400`}
             onClick={handleClick}
           >
-            {copy ? "Copy No.Rek" : "No.Rek Berhasil Di Copy"}
+            {copy ? "Copy No.Rek" : "Berhasil diCopy✔️"}
           </button>
         </div>
       </div>
